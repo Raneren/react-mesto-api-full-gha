@@ -1,0 +1,17 @@
+.button_type_menu {
+  width: 24px;
+  height: 18px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
+  margin: 35px 0 31px;
+
+  display: none;
+}
+@media screen and (max-width: 425px) {
+  .button_type_menu {
+    display: block;
+  }
+}
