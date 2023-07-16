@@ -1,9 +1,0 @@
-.element {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    border-radius: 10px;
-    width: 282px;
-    overflow: hidden;
-    background: #fff;
-}

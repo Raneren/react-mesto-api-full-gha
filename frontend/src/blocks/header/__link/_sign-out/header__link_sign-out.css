@@ -1,8 +1,0 @@
-.header__link_sign-out {
-  color: #a9a9a9;
-}
-@media screen and (max-width: 425px) {
-  .header__link_sign-out {
-    margin: 0;
-  }
-}
