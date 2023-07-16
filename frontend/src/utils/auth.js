@@ -1,4 +1,4 @@
-export const baseUrl = "http://localhost:3005";
+export const baseUrl = "http://api.malinavichus.students.nomoredomains.xyz";
 
 //Функция для проверки ответа
 function checkResponse(res) {

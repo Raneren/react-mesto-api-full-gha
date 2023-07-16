@@ -1,6 +1,6 @@
 // Массив доменов, с которых разрешены кросс-доменные запросы
 const allowedCors = [
-  'http://localhost:3000',
+  'http://malinavichus.students.nomoredomains.xyz',
 ];
 // eslint-disable-next-line consistent-return
 const cors = (req, res, next) => {

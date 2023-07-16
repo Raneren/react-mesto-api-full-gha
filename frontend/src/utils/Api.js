@@ -100,7 +100,7 @@ class Api {
 
 //Класс для работы с Api
 const api = new Api({
-  baseUrl: "http://localhost:3005",
+  baseUrl: "http://api.malinavichus.students.nomoredomains.xyz",
   headers: {
     authorization: `Bearer ${localStorage.getItem('jwt')}`,
   },
