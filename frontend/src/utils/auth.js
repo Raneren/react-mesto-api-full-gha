@@ -1,4 +1,4 @@
-export const baseUrl = "http://api.malinavichus.students.nomoredomains.xyz";
+export const baseUrl = "https://api.malinavichus.students.nomoredomains.xyz";
 
 //Функция для проверки ответа
 function checkResponse(res) {
