@@ -8,7 +8,7 @@
 
 ## Ссылки на проект
 
-IP-адрес 158.160.99.87
+IP 158.160.99.87
 
 Frontend https://malinavichus.students.nomoredomains.xyz
 

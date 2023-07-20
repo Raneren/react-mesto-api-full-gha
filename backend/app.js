@@ -47,13 +47,14 @@ app.use(auth);
 app.use('/users', require('./routes/users'));
 app.use('/cards', require('./routes/cards'));
 
+app.use('/', (req, res, next) => {
+  next(new NotFoundError('Такой страницы не существует'));
+});
+
 app.use(errorLogger); // подключаем логгер ошибок
 
 app.use(errors()); // обработчик ошибок celebrate
 
-app.use('/', (req, res, next) => {
-  next(new NotFoundError('Такой страницы не существует'));
-});
 app.use((err, req, res, next) => {
   const { statusCode = 500, message } = err;
 
